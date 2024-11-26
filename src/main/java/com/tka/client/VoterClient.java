@@ -78,9 +78,7 @@ public class VoterClient {
         scanner.close();
     }
 
-    /**
-     * Utility method to print a list of Person objects in a tabular format.
-     */
+  
     private static void printTable(List<Person> persons) {
         if (persons == null || persons.isEmpty()) {
             System.out.println("No records found.");
